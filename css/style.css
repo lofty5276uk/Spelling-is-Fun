@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  canvas{
+    background: #eee;
+  }
+  
+  canvas:active { 
+      cursor: default;
+  }
+  
+  button{
+    font-size: 18px;
+  }
